@@ -4,7 +4,7 @@ import os
 def read_json(filename):
     with open(filename, "r") as read_file:
         obj = json.load(read_file)
-        pretty_json = json.dumps(obj, indent=4)
+        pretty_json = json.dumps(obj, indent=4) # noticed that it updates the json after every call
         print(pretty_json)
     
     try:
@@ -24,8 +24,8 @@ def read_json(filename):
 # print("Real File Path:" + os.path.realpath(__file__))
 
 print("Humidity Data")
-# read_json("Data/HumidityData.json")
+read_json("Data/HumidityData.json")
 print("Wind Speed Data")
-# read_json("Data/WindSpeedData.json")
+read_json("Data/WindSpeedData.json")
 print("Rainfall Data")
-# read_json("Data/RainfallData.json")
+read_json("Data/RainfallData.json")
