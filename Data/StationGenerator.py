@@ -56,7 +56,18 @@ for station in common:
     print(station)
 print("Number of Common Stations: ", len(common))
 
-
+'Common Stations:'
+'Ang Mo Kio'
+'Jurong Island'
+'Clementi'
+'East Coast Parkway'
+'Taiseng'
+'Jurong (West)'
+'Pulau ubin'
+'Somerset(road)'
+'Tuas south'
+'Ulu Pandan'
+'Admiralty (West)'
 
 
     
