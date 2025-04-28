@@ -64,10 +64,12 @@ print("Number of Common Stations: ", len(common))
 'Taiseng'
 'Jurong (West)'
 'Pulau ubin'
-'Somerset(road)'
+'Somerset(road)' # - missing Temperature (°C) and Wind Speed (km/h) Max Wind Speed (km/h) can replace with 'newton'
 'Tuas south'
-'Ulu Pandan'
-'Admiralty (West)'
+'Ulu Pandan'  # - missing Temperature (°C) and Wind Speed (km/h) Max Wind Speed (km/h) 
+# closest is jurong (East) - doesnt have 5 years of data or Clementi - already above
+'Admiralty (West)' # - no data, can replace with 'Admiralty' instead
+'Admiralty'
 
 
     
